@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #007bff;
+    margin-bottom: 20px;
+}
+.timeline-item {
+    border-left: 3px solid white;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.skills {
+    text-align: center;
+    padding: 20px;
+}
+
+.skill-category {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.front-end, .back-end {
+    width: 40%;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+/* Front-end Block */
+.front-end {
+    background-color: #333333; /* Dark Gray */
+    border-left: 5px solid #FF9800; /* Orange Accent */
+}
+
+/* Back-end Block */
+.back-end {
+    background-color: #444444; /* Medium Dark Gray */
+    border-left: 5px solid #28A745; /* Green Accent */
+}
+
